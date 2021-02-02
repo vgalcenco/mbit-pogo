@@ -1,11 +1,11 @@
-input.onButtonPressed(Button.A, function () {
+function init () {
     jumps = -1
     basic.clearScreen()
-})
+}
 let acc = 0
 let jumps = 0
-jumps = -1
-basic.clearScreen()
+init()
+input.onButtonPressed(Button.A, init)
 basic.forever(function () {
     acc = input.acceleration(Dimension.Y)
     if (acc > 2000) {

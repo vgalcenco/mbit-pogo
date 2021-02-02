@@ -1,14 +1,8 @@
+## microbit pogo counter
 
-> Open this page at [https://vgalcenco.github.io/mbit-pogo/](https://vgalcenco.github.io/mbit-pogo/)
+A program to help counting pogo jumps.
 
-## Use as Extension
-
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/vgalcenco/mbit-pogo** and import
+To be enhanced such that the number of jumps counted are displayed on a TM1637 4 digit 7 segment display.
 
 ## Edit this project ![Build status badge](https://github.com/vgalcenco/mbit-pogo/workflows/MakeCode/badge.svg)
 
@@ -24,8 +18,3 @@ This image shows the blocks code from the last commit in master.
 This image may take a few minutes to refresh.
 
 ![A rendered view of the blocks](https://github.com/vgalcenco/mbit-pogo/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>

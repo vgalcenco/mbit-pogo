@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "TM1637": "github:makecode-extensions/tm1637#v1.0.0"
     },
     "files": [
         "main.blocks",
